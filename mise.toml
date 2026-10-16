@@ -1,4 +1,3 @@
-
 [tools]
 node = "24"
 
@@ -7,3 +6,15 @@ run = "echo Hello from mise"
 
 [tasks.version]
 run = "node --version"
+
+[tasks.build]
+run = "echo building"
+
+[tasks.test]
+run = "node --version && echo tests ok"
+
+[tasks.lint]
+run = "echo lint ok"
+
+[tasks.deploy]
+run = "echo deploying"
