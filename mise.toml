@@ -1,0 +1,9 @@
+
+[tools]
+node = "24"
+
+[tasks.hello]
+run = "echo Hello from mise"
+
+[tasks.version]
+run = "node --version"
