@@ -8,7 +8,7 @@ run = "echo Hello from mise"
 run = "node --version"
 
 [tasks.build]
-run = "echo building"
+run = "mkdir -p bin && echo 'my app v1' > bin/app"
 
 [tasks.test]
 run = "node --version && echo tests ok"
